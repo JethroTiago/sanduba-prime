@@ -17,3 +17,10 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.imagem-topo {
+    background-image: url('/img/image-mob-hero.jpg');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
