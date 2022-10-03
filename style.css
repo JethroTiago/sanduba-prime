@@ -1,0 +1,19 @@
+:root {
+    --branco: #ffffff;
+    --black: #000000;
+    --cinza-escuro: #8c8c8c;
+    --cinza-muito-escuro: #696969;
+    --fonte-principal: font-family: 'Josefin Sans', sans-serif;
+    --fonte-secundaria: font-family: 'Alata', sans-serif;
+}
+
+body {
+    background-color: var(--branco);
+}
+
+* {
+    border: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
