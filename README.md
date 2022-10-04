@@ -23,7 +23,7 @@ Website created for the Sanduba Prime company - Handmade Burgers
 
 - HTML5 Structure
 - CSS tools, (like Flex-Box and media query)
-- Bootstrap
+- FontAwesome tools
 - Mobile-First
 - Responsiveness
 - JavaScript tools
