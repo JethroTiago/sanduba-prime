@@ -19,8 +19,10 @@ body {
 }
 
 .imagem-topo {
-    background-image: url('/img/image-mob-hero.jpg');
-    height: 50vh;
+    background-image: url('/img/image-hero.jpg');
+    height: 100vh;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
