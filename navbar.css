@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Alata', sans-serif;
 }
 
 nav {
@@ -16,6 +16,7 @@ nav {
 }
 
 nav .logo {
+  font-size: 50vh;
   color: #fff;
   font-size: 30px;
   font-weight: 600;
