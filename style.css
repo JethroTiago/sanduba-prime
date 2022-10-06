@@ -20,20 +20,21 @@ body {
 
 .imagem-topo {
     background-image: url('/img/image-hero.jpg');
-    height: 100vh;
+    height: 50vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+   
     position: relative;
 }
 
 .texto-banner {
     margin: 0 200px 0 0;
-    padding: 50px;
+    padding: 5vw;
     text-align: left;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
-    font-size: 10vh;
+    font-size: 4vw;
     text-transform: uppercase;
     color: #ffffff;
     border: solid #ffffff;
