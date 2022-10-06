@@ -11,7 +11,7 @@
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
     font-size: 3vw;
-    margin: 0 0 5vw 0;
+    margin: 0 0 3vw 0;
     text-transform: uppercase;
 }
 
@@ -21,7 +21,7 @@
     text-decoration: none;
     border: 1px solid black;
     letter-spacing: 1px;
-    margin: 0 0 5vw 0;
+    margin: 0 0 3vw 0;
     padding: 0.5vw 2vw;
     transition: all 0.3s ease;
 }
@@ -34,10 +34,21 @@
 .cardapio-images {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .image-texto {
     position: relative;
+}
+
+.image-burguer {
+    margin-top: 2vw;
+}
+
+.image-burguer:hover {
+    filter: grayscale(90%);
+    transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 .texto-burguer {
@@ -50,4 +61,5 @@
     font-size: 2.5vw;
     text-shadow: 50px black;
     position: absolute;
+    cursor: pointer;
 }
