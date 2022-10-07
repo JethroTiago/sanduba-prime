@@ -1,6 +1,6 @@
 :root {
     --branco: #ffffff;
-    --black: #000000;
+    --preto: #000000;
     --cinza-escuro: #8c8c8c;
     --cinza-muito-escuro: #696969;
     --fonte-principal: font-family: 'Josefin Sans', sans-serif;
@@ -24,7 +24,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-   
     position: relative;
 }
 
@@ -36,6 +35,6 @@ body {
     font-weight: 300;
     font-size: 4vw;
     text-transform: uppercase;
-    color: #ffffff;
-    border: solid #ffffff;
+    color: var(--branco);
+    border: solid var(--branco);
 }
