@@ -76,17 +76,19 @@ input[type="checkbox"] {
   }
 
   nav ul {
-    position: fixed;
+    text-transform: uppercase;
+    position:absolute;
     top: 80px;
     left: -100%;
-    background: #111;
-    height: 50vh;
+    background: black;
+    height: 80vh;
     width: 50%;
     text-align: left;
     padding: 2vw;
     display: block;
     transition: all 0.3s ease;
-    border-end-end-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
 
   #click:checked~ul {
