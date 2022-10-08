@@ -31,3 +31,36 @@
     font-size: 1.2vw;
     color: #8c8c8c;
 }
+
+@media (max-width: 920px) {
+    .sobre {
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+    
+    .sobre img {
+        margin: 4vw;
+        width: 80vw;
+    }
+
+    .sobre-textos {
+        width: 60vw;
+        height: 32vw;
+        padding: 5vw;
+        top: 0;
+        left: 14vw;
+        position: relative;
+    }
+
+    .sobre-titulo {
+        text-align: center;
+        font-weight: 700;
+        font-size: 3.7vw;
+    }
+    
+    .sobre-descricao {
+        text-align: center;
+        font-size: 1.9vw;
+    }
+
+}

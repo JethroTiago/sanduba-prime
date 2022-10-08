@@ -1,4 +1,5 @@
 .cardapio {
+    box-sizing: border-box;
     padding: 5%;
 }
 
@@ -32,27 +33,31 @@
 }
 
 .cardapio-images {
+    align-items: center;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: no wrap;
+    justify-content: space-between;
 }
 
 .image-texto {
     position: relative;
+
 }
 
 .image-burguer {
     margin-top: 2vw;
+    width: 100%;
 }
 
 .image-burguer:hover {
-    filter: grayscale(90%);
+    filter: grayscale(95%);
     transition: all 0.3s ease;
 }
 
 .texto-burguer {
     bottom: 3vw;
-    padding: 1.5vw;
+    right: 1vw;
+    padding: 1.3vw 0 1.3vw 1.3vw;
     color: var(--branco);
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
@@ -64,7 +69,6 @@
 }
 
 .texto-burguer:hover {
-    transition: all 0.3s ease;
-    font-weight: 600;
+    font-weight: 700;
     color: var(--preto);
 }

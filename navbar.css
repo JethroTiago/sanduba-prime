@@ -115,4 +115,9 @@ input[type="checkbox"] {
     background: none;
     color: cyan;
   }
+
+  .fas {
+    margin: 2vw 5vw 1vw 0;
+  }
+
 }
